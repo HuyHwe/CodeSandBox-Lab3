@@ -1,6 +1,7 @@
 const express = require("express");
 const User = require("../db/userModel");
 const router = express.Router();
+
 const {isValidObjectId} = require("../utils/utils");
 
 router.post("/", async (request, response) => {
